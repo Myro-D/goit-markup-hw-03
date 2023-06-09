@@ -130,11 +130,11 @@ address {
 /* ПЕРЩА СЕКЦІЯ */
 .first-section {
   height: 600px;
-  padding: 188px 0;
+  padding: 188px 0 188px;
   background: #2e2f42;
-  /* margin: 188px 0 188px 0; */
 }
 .first-section-title {
+  max-width: 496px;
   text-align: center;
   letter-spacing: 0.02em;
   font-style: normal;
@@ -145,8 +145,7 @@ address {
   /* max-width: 496px; */
   text-align: center;
   letter-spacing: 0.02em;
-  max-width: 496px;
-  margin: 472px 260px 472px 480px;
+  /* margin: 472px 260px 472px 480px; */
 }
 
 .cont {
@@ -155,7 +154,9 @@ address {
   text-align: center;
 }
 
-.cont h1 {
+.cont h1,
+h2,
+img {
   white-space: nowrap;
 }
 
@@ -165,6 +166,11 @@ address {
 .cont h1 span:last-child {
   margin-bottom: 46px;
 }
+.cont li {
+  display: flex;
+  flex-direction: column;
+}
+
 /* .butt {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -302,7 +308,7 @@ address {
   margin-bottom: 72px;
 }
 .images-sec-three {
-  flex-basis: calc((100% - 2 * 24px) / 3);
+  width: calc((100% - 48px) / 3);
 }
 .list-sec-three {
   display: flex;
@@ -312,6 +318,8 @@ address {
 .four-section {
   background-color: #f4f4fd;
   padding: 120px 0;
+
+  /* display: inline-block; */
 }
 .title-sec-four {
   font-weight: 700;
@@ -322,6 +330,9 @@ address {
   text-transform: capitalize;
   color: var(--list-title-color);
   margin-bottom: 72px;
+  display: flex;
+  justify-content: center;
+  list-style: none;
 }
 .list-sec-four {
   gap: 24px;
@@ -330,9 +341,13 @@ address {
 .item-sec-four {
   flex-basis: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .name-and-profession {
   padding: 32px 16px;
+  text-align: center;
 }
 /* .list-sec-fou {
   display: flex;
