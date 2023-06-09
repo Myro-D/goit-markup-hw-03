@@ -39,6 +39,7 @@ img {
   text-transform: uppercase;
   color: var(--logo-color);
   margin-right: 76px;
+  padding: 24px 0;
 }
 .header {
   border-bottom: 1px solid #e7e9fc;
@@ -62,7 +63,9 @@ img {
 }
 .teg-addres {
   display: flex;
+  /* align-items: center; */
   align-items: center;
+  justify-content: flex-end;
 }
 .menu-nav li {
   margin-right: 40px;
