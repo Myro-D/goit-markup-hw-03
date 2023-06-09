@@ -131,7 +131,7 @@ address {
 .first-section {
   height: 600px;
   background: #2e2f42;
-  padding: 188px 0 188px;
+  /* margin: 188px 0 188px 0; */
 }
 .first-section-title {
   text-align: center;
@@ -141,10 +141,10 @@ address {
   font-size: 56px;
   line-height: 1.07;
   color: #ffffff;
-  max-width: 496px;
+  /* max-width: 496px; */
   text-align: center;
   letter-spacing: 0.02em;
-  margin-bottom: 46px;
+  margin: 472px 260px 472px 480px;
 }
 
 .cont {
