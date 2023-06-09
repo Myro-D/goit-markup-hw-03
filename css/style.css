@@ -50,7 +50,7 @@ img {
 }
 .container {
   width: 1158px;
-  margin: 0;
+  margin: 0 auto;
   padding: 0 15px;
 }
 .navigation {
@@ -130,6 +130,7 @@ address {
 /* ПЕРЩА СЕКЦІЯ */
 .first-section {
   height: 600px;
+  padding: 188px 0;
   background: #2e2f42;
   /* margin: 188px 0 188px 0; */
 }
@@ -144,6 +145,7 @@ address {
   /* max-width: 496px; */
   text-align: center;
   letter-spacing: 0.02em;
+  max-width: 496px;
   margin: 472px 260px 472px 480px;
 }
 
@@ -260,8 +262,10 @@ address {
   margin: -1px;
   padding: 0;
   overflow: hidden;
+  clip-path: inset(100%);
   clip: rect(0, 0, 0, 0);
   border: 0;
+  white-space: nowrap;
 }
 .list-title {
   display: flex;
