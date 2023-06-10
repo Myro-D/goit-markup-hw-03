@@ -358,6 +358,15 @@ img {
   min-width: 264px;
 }
 /* ПОРТФОЛІО */
+.port-first-sec {
+  padding: 96px 0 120px 0;
+}
+.list-menu-port {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+}
 .list-button {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
