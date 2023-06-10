@@ -375,12 +375,31 @@ img {
   letter-spacing: 0.04em;
   color: var(--logo-color);
   background-color: #f4f4fd;
+  padding: 12px 24px;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
 }
 .list-button:hover,
 .list-button:focus {
   color: #ffffff;
   background-color: #404bbf;
   cursor: pointer;
+  border: 1px solid transparent;
+}
+.list-port-images {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+.item-port-images {
+  width: calc((100% - 48px) / 3);
+}
+.container-items-port {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
 }
 .images-title {
   font-weight: 500;
