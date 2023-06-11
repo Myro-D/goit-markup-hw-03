@@ -303,10 +303,10 @@ img {
   background-color: #ffffff;
 }
 .item-sec-four {
-  flex-basis: calc((100% - 72px) / 4);
+  width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
 }
 .name-and-profession {
@@ -320,6 +320,8 @@ img {
   padding: 0px;
 } */
 .list-members {
+  display: flex;
+  flex-direction: row;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -328,7 +330,12 @@ img {
   color: var(--list-title-color);
   margin-bottom: 8px;
 }
+.our-team-img {
+  display: flex;
+}
 .proffesion-member {
+  display: flex;
+  justify-content: center;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -350,13 +357,15 @@ img {
 }
 
 .p-footer {
+  display: flex;
+  max-width: 264px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--title-color);
-  margin-bottom: 16px;
-  min-width: 264px;
+  /* margin-bottom: 16px; */
+  padding-left: 156px;
 }
 /* ПОРТФОЛІО */
 .port-first-sec {
