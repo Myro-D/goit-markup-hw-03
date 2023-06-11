@@ -39,6 +39,7 @@ img {
   text-transform: uppercase;
   color: var(--logo-color);
   margin-right: 76px;
+  margin-left: 156px;
   padding: 24px 0;
 }
 .header {
@@ -49,7 +50,7 @@ img {
   padding: 24px 0;
 }
 .container {
-  width: 1158px;
+  width: 1440px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -396,6 +397,8 @@ img {
   width: calc((100% - 48px) / 3);
 }
 .container-items-port {
+  display: inline-block;
+  align-items: baseline;
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
