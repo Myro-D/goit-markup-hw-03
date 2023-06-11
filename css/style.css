@@ -50,9 +50,8 @@ img {
   padding: 24px 0;
 }
 .container {
-  width: 1440px;
+  width: 1158px;
   margin: 0 auto;
-  padding: 0 15px;
 }
 .navigation {
   display: flex;
@@ -127,8 +126,8 @@ address {
   color: #404bbf;
 }
 .menu-adress:last-child {
-  min-width: 151px;
-  padding-right: 156px;
+  /* min-width: 151px; */
+  /* padding-right: 156px; */
 }
 /* ПЕРЩА СЕКЦІЯ */
 .first-section {
@@ -153,7 +152,7 @@ address {
 
 .cont {
   display: inline-block;
-  width: 100%;
+
   text-align: center;
 }
 
@@ -223,6 +222,7 @@ img {
   letter-spacing: 0.02em;
   color: var(--addres-link-color);
   min-width: 264px;
+  margin-bottom: 8px;
 }
 .section-thee {
   padding: 120px 0;
