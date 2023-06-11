@@ -45,7 +45,7 @@ footer {
   text-transform: uppercase;
   color: var(--logo-color);
   margin-right: 76px;
-  margin-left: 156px;
+  /* margin-left: 156px; */
   padding: 24px 0;
 }
 .header {
@@ -65,6 +65,7 @@ footer {
 .navigation {
   display: flex;
   align-items: center;
+  white-space: nowrap;
   margin-right: 322px;
 }
 .menu-nav {
@@ -357,6 +358,7 @@ img {
 .list-members {
   display: flex;
   align-items: center;
+  text-align: center;
   flex-direction: row;
   font-weight: 500;
   font-size: 20px;
