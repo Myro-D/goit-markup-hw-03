@@ -12,11 +12,17 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
+  width: 1440px;
+}
+main {
+  width: 1440px;
 }
 img {
   display: block;
 }
-
+footer {
+  width: 1440px;
+}
 :root {
   --logo-color: #4d5ae5;
   --addres-link-color: #434455;
@@ -54,9 +60,6 @@ img {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
-  padding-left: 15px;
-  padding-right: 15px;
-  box-sizing: content-box;
 }
 .navigation {
   display: flex;
@@ -137,6 +140,7 @@ address {
 }
 /* ПЕРЩА СЕКЦІЯ */
 .first-section {
+  width: 1440px;
   height: 600px;
   padding: 188px 0 188px;
   background: #2e2f42;
@@ -150,12 +154,12 @@ address {
   font-size: 56px;
   line-height: 1.07;
   color: #ffffff;
-  /* max-width: 496px; */
-  text-align: center;
-  letter-spacing: 0.02em;
-  /* margin: 472px 260px 472px 480px; */
-}
 
+  letter-spacing: 0.02em;
+}
+.span-title-sec-one {
+  display: inline-flex;
+}
 .cont {
   display: inline-block;
   margin: 0 auto;
@@ -310,7 +314,7 @@ img {
   list-style: none;
 }
 .list-sec-four {
-  display: flex;
+  display: inline-flex;
   gap: 24px;
   background-color: #f4f4fd;
 }
