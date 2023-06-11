@@ -57,6 +57,7 @@ img {
 .navigation {
   display: flex;
   align-items: center;
+  margin-right: 322px;
 }
 .menu-nav {
   display: flex;
@@ -69,7 +70,7 @@ img {
   justify-content: flex-end;
 }
 .menu-nav li {
-  margin-right: 40px;
+  /* margin-right: 40px; */
 }
 .menu-nav:last-child {
   margin-right: 0;
@@ -79,7 +80,7 @@ img {
 }
 .menu-adress {
   display: flex;
-  gap: 40px;
+  /* gap: 40px; */
 }
 .menu-adress li {
   margin-right: 40px;
@@ -88,6 +89,7 @@ img {
   margin-right: 0;
 }
 .link-nav {
+  font-size: 16px;
   padding: 24px 0;
 }
 .link {
@@ -310,13 +312,14 @@ img {
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
   display: flex;
+  justify-content: center;
   background-color: #f4f4fd;
-
   align-items: center;
 }
 .name-and-profession {
   padding: 32px 16px;
-  text-align: center;
+  align-items: center;
+  background: #ffffff;
 }
 /* .list-sec-fou {
   display: flex;
@@ -330,7 +333,7 @@ img {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  text-align: center;
+  justify-content: center;
   letter-spacing: 0.02em;
   color: var(--list-title-color);
   margin-bottom: 8px;
