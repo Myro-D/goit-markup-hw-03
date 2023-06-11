@@ -48,12 +48,15 @@ img {
 .top-bar {
   display: flex;
   margin: 0 auto;
-  padding: 24px 0;
+  /* padding: 24px 0; */
 }
 .container {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-sizing: content-box;
 }
 .navigation {
   display: flex;
@@ -81,6 +84,7 @@ img {
 }
 .menu-adress {
   display: flex;
+  align-items: center;
   /* gap: 40px; */
 }
 .menu-adress li {
