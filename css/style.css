@@ -49,11 +49,12 @@ footer {
   padding: 24px 0;
 }
 .header {
+  width: 1440px;
   border-bottom: 1px solid #e7e9fc;
 }
 .top-bar {
   display: flex;
-  margin: 0 auto;
+
   /* padding: 24px 0; */
 }
 .container {
@@ -124,6 +125,7 @@ address {
   font-style: normal;
 }
 .addres-list-item {
+  white-space: nowrap;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -353,7 +355,8 @@ img {
   padding: 0px;
 } */
 .list-members {
-  display: inline-flex;
+  display: flex;
+  align-items: center;
   flex-direction: row;
   font-weight: 500;
   font-size: 20px;
