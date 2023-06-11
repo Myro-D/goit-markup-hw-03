@@ -146,6 +146,9 @@ address {
   background: #2e2f42;
 }
 .first-section-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   max-width: 496px;
   text-align: center;
   letter-spacing: 0.02em;
@@ -154,13 +157,16 @@ address {
   font-size: 56px;
   line-height: 1.07;
   color: #ffffff;
-
+  margin: 0 auto;
   letter-spacing: 0.02em;
+}
+.first-section-title span {
+  display: inline-block;
 }
 .span-title-sec-one {
   display: inline-flex;
 }
-.cont {
+/* .cont {
   display: inline-block;
   margin: 0 auto;
   text-align: center;
@@ -175,13 +181,18 @@ img {
 .cont h1 span {
   display: block;
 }
+
 .cont h1 span:last-child {
   margin-bottom: 46px;
-}
+} */
 /* .cont li {
   display: flex;
   flex-direction: column;
 } */
+.span-title-sec-one {
+  display: block;
+  margin-bottom: 48px;
+}
 
 .butt {
   font-family: "Roboto", sans-serif;
@@ -314,7 +325,7 @@ img {
   list-style: none;
 }
 .list-sec-four {
-  display: inline-flex;
+  display: flex;
   gap: 24px;
   background-color: #f4f4fd;
 }
