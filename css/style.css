@@ -12,16 +12,16 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
-  width: 1440px;
+  /* width: 1440px; */
 }
 main {
-  width: 1440px;
+  /* width: 1440px; */
 }
 img {
   display: block;
 }
 footer {
-  width: 1440px;
+  /* width: 1440px; */
 }
 :root {
   --logo-color: #4d5ae5;
@@ -49,7 +49,7 @@ footer {
   padding: 24px 0;
 }
 .header {
-  width: 1440px;
+  /* width: 1440px; */
   border-bottom: 1px solid #e7e9fc;
 }
 .top-bar {
@@ -61,6 +61,7 @@ footer {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
+  overflow: hidden;
 }
 .navigation {
   display: flex;
@@ -103,6 +104,7 @@ footer {
   padding: 24px 0;
 }
 .link {
+  color: #2e2f42;
   text-decoration: none;
 }
 .somain-title {
@@ -120,6 +122,10 @@ footer {
 }
 .nav-list-item:hover,
 .nav-list-item:focus {
+  color: #404bbf;
+}
+.link-nav:hover,
+.link-nav:focus {
   color: #404bbf;
 }
 address {
@@ -143,8 +149,7 @@ address {
 }
 /* ПЕРЩА СЕКЦІЯ */
 .first-section {
-  width: 1440px;
-  height: 600px;
+  /* width: 1440px; */
   padding: 188px 0 188px;
   background: #2e2f42;
 }
@@ -169,29 +174,7 @@ address {
 .span-title-sec-one {
   display: inline-flex;
 }
-/* .cont {
-  display: inline-block;
-  margin: 0 auto;
-  text-align: center;
-}
 
-.cont h1,
-h2,
-img {
-  white-space: nowrap;
-}
-
-.cont h1 span {
-  display: block;
-}
-
-.cont h1 span:last-child {
-  margin-bottom: 46px;
-} */
-/* .cont li {
-  display: flex;
-  flex-direction: column;
-} */
 .span-title-sec-one {
   display: block;
   margin-bottom: 48px;
@@ -330,10 +313,13 @@ img {
 .list-sec-four {
   display: flex;
   gap: 24px;
-  background-color: #f4f4fd;
+
+  max-width: 1158px;
 }
+
 .item-sec-four {
   width: calc((100% - 72px) / 4);
+  max-width: 264px;
   border-radius: 0px 0px 4px 4px;
   display: flex;
   flex-direction: column;
@@ -369,7 +355,7 @@ img {
   margin-bottom: 8px;
 }
 .our-team-img {
-  /* display: flex; */
+  max-width: 264px;
 }
 .proffesion-member {
   display: flex;
@@ -389,6 +375,7 @@ img {
 .foot-logo {
   display: inline-block;
   margin-bottom: 16px;
+  padding-left: 156px;
 }
 .somain-title-footer {
   color: #f4f4fd;
@@ -474,4 +461,7 @@ img {
 .cont-footer {
   display: flex;
   gap: 24px;
+}
+.color-logo {
+  color: #4d5ae5;
 }
