@@ -317,7 +317,7 @@ address {
 }
 
 .item-sec-four {
-  width: calc((100% - 72px) / 4);
+  width: calc((100% - 3 * 24px) / 4);
   max-width: 264px;
   border-radius: 0px 0px 4px 4px;
   display: flex;
