@@ -312,20 +312,19 @@ address {
 .list-sec-four {
   display: flex;
   gap: 24px;
-
-  max-width: 1158px;
 }
 
 .item-sec-four {
-  width: calc((100% - 3 * 24px) / 4);
-  max-width: 264px;
+  flex-basis: calc((100% - 3 * 24px) / 4);
   border-radius: 0px 0px 4px 4px;
   display: flex;
   flex-direction: column;
-
   justify-content: center;
   background-color: #f4f4fd;
   align-items: center;
+}
+.item-max {
+  max-width: 264px;
 }
 .name-and-profession {
   padding: 32px 16px;
