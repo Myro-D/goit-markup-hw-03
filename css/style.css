@@ -55,13 +55,24 @@ img {
 header div {
   display: flex;
   margin: 0 auto;
+  box-sizing: border-box;
 }
 .container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.container.header {
+  display: flex;
+}
+/* .container {
   width: 1158px;
 
   margin: 0 auto;
   padding: 0 15px;
-}
+} */
 .navigation {
   display: flex;
   align-items: center;
@@ -293,6 +304,7 @@ address {
 .four-section {
   background-color: #f4f4fd;
   padding: 120px 0;
+  box-sizing: border-box;
 
   /* display: inline-block; */
 }
