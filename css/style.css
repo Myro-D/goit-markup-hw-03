@@ -14,15 +14,11 @@ body {
   background-color: #ffffff;
   /* width: 1440px; */
 }
-main {
-  /* width: 1440px; */
-}
+
 img {
   display: block;
 }
-footer {
-  /* width: 1440px; */
-}
+
 :root {
   --logo-color: #4d5ae5;
   --addres-link-color: #434455;
@@ -55,6 +51,10 @@ footer {
 }
 .top-bar {
   display: flex;
+}
+header div {
+  display: flex;
+  margin: 0 auto;
 }
 .container {
   width: 1158px;
