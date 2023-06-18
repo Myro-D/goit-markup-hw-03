@@ -348,7 +348,6 @@ address {
 .foot-logo {
   display: inline-block;
   margin-bottom: 16px;
-  padding-left: 156px;
 }
 .somain-title-footer {
   color: #f4f4fd;
@@ -362,8 +361,6 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--title-color);
-
-  padding-left: 156px;
 }
 /* ПОРТФОЛІО */
 .port-first-sec {
