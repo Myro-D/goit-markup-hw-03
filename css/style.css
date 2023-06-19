@@ -83,7 +83,6 @@ header div {
 .menu-adress {
   display: flex;
   align-items: center;
-  /* gap: 40px; */
 }
 .menu-adress li {
   margin-right: 40px;
@@ -218,7 +217,7 @@ address {
   font-style: normal;
 }
 .section-thee {
-  padding: 120px 0;
+  padding-bottom: 120px;
 }
 .visually-hidden {
   position: absolute;
