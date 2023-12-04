@@ -103,7 +103,6 @@ header .container {
   color: #4d5ae5;
   margin-right: 76px;
   padding: 24px 0;
-  /* padding-left: 176px; */
 }
 .logo-studio {
   font-family: 'Raleway', sans-serif;
@@ -179,11 +178,13 @@ main {
   margin: auto;
   min-width: 169px;
   border-radius: 4px;
+  height: 56px;
 }
 .button-section-one:hover,
 .button-section-one:focus {
   background-color: #404bbf;
 }
+
 /* SECTION TWO */
 .section-two-h-two {
   color: #2e2f42;
@@ -205,8 +206,8 @@ main {
 .about-us-list {
   display: flex;
   gap: 24px;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  /* padding-top: 120px;
+  padding-bottom: 120px; */
 }
 /* SECTION THREE */
 .section-three {
@@ -222,7 +223,7 @@ main {
   text-transform: capitalize;
   text-align: center;
   display: block;
-  padding-top: 120px;
+  /* padding-top: 120px; */
   padding-bottom: 72px;
 }
 .section-three-li {
@@ -251,6 +252,10 @@ main {
   display: flex;
   gap: 24px;
 }
+.container-team-member {
+  padding: 32px 16px;
+  border-
+}
 /* SECTION FOUR */
 .section-four-h-two {
   display: block;
@@ -261,7 +266,7 @@ main {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
-  padding-top: 120px;
+  /* padding-top: 120px; */
   padding-bottom: 72px;
 }
 .section-four-h-three {
@@ -297,6 +302,12 @@ main {
   padding-top: 120px;
   padding-bottom: 120px;
 }
+.container-portfolio-item {
+  background-color: #ffffff;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  padding: 32px 16px;
+}
 /* FOOTER */
 .foter {
   background-color: #2e2f42;
@@ -317,6 +328,7 @@ main {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  max-width: 264px;
 }
 footer .container {
   padding-left: 156px;
