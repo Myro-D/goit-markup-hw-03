@@ -330,7 +330,7 @@ main {
   max-width: 264px;
 }
 footer .container {
-  padding-left: 156px;
+  /* padding-left: 156px; */
   padding-right: 156px;
   padding-top: 120px;
   padding-bottom: 72px;
