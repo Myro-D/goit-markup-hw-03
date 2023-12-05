@@ -119,6 +119,7 @@ header .container {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px 0;
 }
 .nav-item:hover,
 .nav-item:focus {
@@ -152,6 +153,7 @@ main {
 }
 .section-one {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 .sec-one-h {
   display: flex;
@@ -163,8 +165,10 @@ main {
   text-align: center;
   color: #ffffff;
   align-items: center;
-  padding-top: 188px;
+  max-width: 496px;
   padding-bottom: 48px;
+  justify-content: center;
+  margin: auto;
 }
 .button-section-one {
   display: block;
@@ -179,6 +183,7 @@ main {
   min-width: 169px;
   border-radius: 4px;
   height: 56px;
+  border: none;
 }
 .button-section-one:hover,
 .button-section-one:focus {
@@ -197,6 +202,7 @@ main {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .section-two-p {
   font-size: 16px;
@@ -206,8 +212,9 @@ main {
 .about-us-list {
   display: flex;
   gap: 24px;
-  /* padding-top: 120px;
-  padding-bottom: 120px; */
+}
+.about-us-item {
+  width: calc((100% - 72px) / 4);
 }
 /* SECTION THREE */
 .section-three {
@@ -224,10 +231,11 @@ main {
   text-align: center;
   display: block;
   /* padding-top: 120px; */
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 .section-three-li {
   background-color: #ffffff;
+  border-radius: 0px 0px 4px 4px;
 }
 .section-three-h-three {
   display: block;
@@ -237,6 +245,7 @@ main {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .section-three-p {
   font-weight: 400;
@@ -253,7 +262,7 @@ main {
   gap: 24px;
 }
 .container-team-member {
-  padding: 32px 16px;
+  padding: 32px 0;
 }
 /* SECTION FOUR */
 .section-four-h-two {
@@ -266,7 +275,7 @@ main {
   color: #2e2f42;
   text-transform: capitalize;
   /* padding-top: 120px; */
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 .section-four-h-three {
   display: block;
@@ -275,6 +284,7 @@ main {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .section-four-p {
   font-size: 16px;
@@ -310,6 +320,7 @@ main {
 /* FOOTER */
 .foter {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 .logo-studio-foter {
   font-family: 'Raleway', sans-serif;
@@ -321,7 +332,7 @@ main {
   color: #f4f4fd;
 }
 .foter-text-p {
-  margin-top: 8px;
+  /* margin-top: 8px; */
   display: block;
   font-size: 16px;
   line-height: 1.5;
@@ -334,4 +345,8 @@ footer .container {
   padding-right: 156px;
   padding-top: 120px;
   padding-bottom: 72px;
+}
+footer a {
+  display: inline-block;
+  margin-bottom: 16px;
 }
