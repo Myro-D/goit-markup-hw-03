@@ -6,7 +6,7 @@ h5,
 h6,
 p,
 ul {
-  all: unset;
+  margin: 0;
 }
 h1,
 h2,
@@ -156,8 +156,6 @@ main {
   padding: 188px 0;
 }
 .sec-one-h {
-  display: flex;
-  flex-direction: column;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -166,9 +164,9 @@ main {
   color: #ffffff;
   align-items: center;
   max-width: 496px;
-  padding-bottom: 48px;
   justify-content: center;
-  margin: auto;
+  margin: 0 auto;
+  margin-bottom: 48px;
 }
 .button-section-one {
   display: block;
@@ -230,7 +228,6 @@ main {
   text-transform: capitalize;
   text-align: center;
   display: block;
-  /* padding-top: 120px; */
   margin-bottom: 72px;
 }
 .section-three-li {
@@ -274,7 +271,6 @@ main {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
-  /* padding-top: 120px; */
   margin-bottom: 72px;
 }
 .section-four-h-three {
@@ -307,10 +303,7 @@ main {
   background-color: #f4f4fd;
   align-items: center;
 }
-.section-four .container {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
+
 .container-portfolio-item {
   background-color: #ffffff;
   border: 1px solid #e7e9fc;
@@ -332,7 +325,6 @@ main {
   color: #f4f4fd;
 }
 .foter-text-p {
-  /* margin-top: 8px; */
   display: block;
   font-size: 16px;
   line-height: 1.5;
@@ -340,12 +332,17 @@ main {
   color: #f4f4fd;
   max-width: 264px;
 }
-footer .container {
-  /* padding-left: 156px; */
-  padding-right: 156px;
-  padding-top: 120px;
-  padding-bottom: 72px;
+.foter-logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  margin-right: 76px;
 }
+
 footer a {
   display: inline-block;
   margin-bottom: 16px;
